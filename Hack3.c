@@ -24,5 +24,8 @@ int main()
     Remaning_GB = totalGB - total_used;
     averageDailyUse = total_used / currentDay;
     Max_Use = totalGB / 30 ;
+
+    printf("%d days used, %d days remaining\n", currentDay, Remaning_Days);
+    printf("Average daily use: %.3lf GB/day\n", averageDailyUse);
     return 0;
 }
