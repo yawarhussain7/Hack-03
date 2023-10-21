@@ -35,5 +35,10 @@ int main()
         printf("Continuing this high usage, you'll exceed your data plan by %.1lf GB.\n",suggestion);
     }
     
+    else if (averageDailyUse < Max_Use)
+    {
+        
+    }
+    
     return 0;
 }
