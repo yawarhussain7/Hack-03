@@ -10,7 +10,7 @@ it inform the user
 int main()
 {
 
-    double totalGB, total_used, averageDailyUse,Max_Use;
+    double totalGB, total_used, averageDailyUse,Max_Use,Remaning_GB;
     int currentDay, Remaning_Days;
     
     printf("Number of GB in the plan per 30 day period \n");
@@ -20,5 +20,7 @@ int main()
     printf("The total number of GB used so far\n");
     scanf("%lf", &total_used);
 
+    Remaning_Days = 30 - currentDay;
+    Remaning_GB = totalGB - total_used;
     return 0;
 }
