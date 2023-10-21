@@ -30,6 +30,7 @@ int main()
 
     if(averageDailyUse > Max_Use)
     {
+         printf("You are EXCEEDING your average daily use (%.3lf GB/day).\n", Max_Use);
         
     }
     return 0;
