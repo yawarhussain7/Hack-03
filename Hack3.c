@@ -13,5 +13,6 @@ int main()
     double totalGB, total_used, averageDailyUse,Max_Use;
     int currentDay, Remaning_Days;
  
+ 
     return 0;
 }
