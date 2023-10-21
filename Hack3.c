@@ -27,5 +27,10 @@ int main()
 
     printf("%d days used, %d days remaining\n", currentDay, Remaning_Days);
     printf("Average daily use: %.3lf GB/day\n", averageDailyUse);
+
+    if(averageDailyUse > Max_Use)
+    {
+        
+    }
     return 0;
 }
