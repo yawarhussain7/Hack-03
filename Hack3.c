@@ -13,11 +13,11 @@ int main()
     double totalGB, total_used, averageDailyUse,Max_Use,Remaning_GB;
     int currentDay, Remaning_Days;
     
-    printf("Number of GB in the plan per 30 day period \n");
+    printf("Number of GB in the plan per 30 day period : ");
     scanf("%lf", &totalGB);
-    printf("The current day in the 30 day period (in the range 1, first day, 30 for the last day)\n");
+    printf("The current day in the 30 day period (in the range 1, first day, 30 for the last day) : ");
     scanf("%d", &currentDay);
-    printf("The total number of GB used so far\n");
+    printf("The total number of GB used so far : ");
     scanf("%lf", &total_used);
 
     Remaning_Days = 30 - currentDay;
@@ -31,7 +31,9 @@ int main()
     if(averageDailyUse > Max_Use)
     {
          printf("You are EXCEEDING your average daily use (%.3lf GB/day).\n", Max_Use);
-        
+        double suggestion = (averageDailyUse - Max_Use) * 30;
+      
     }
+    
     return 0;
 }
