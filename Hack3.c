@@ -23,5 +23,6 @@ int main()
     Remaning_Days = 30 - currentDay;
     Remaning_GB = totalGB - total_used;
     averageDailyUse = total_used / currentDay;
+    Max_Use = totalGB / 30 ;
     return 0;
 }
