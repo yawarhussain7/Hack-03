@@ -32,7 +32,7 @@ int main()
     {
          printf("You are EXCEEDING your average daily use (%.3lf GB/day).\n", Max_Use);
         double suggestion = (averageDailyUse - Max_Use) * 30;
-      
+        printf("Continuing this high usage, you'll exceed your data plan by %.1lf GB.\n",suggestion);
     }
     
     return 0;
