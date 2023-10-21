@@ -38,7 +38,8 @@ int main()
     else if (averageDailyUse < Max_Use)
     {
         printf("You are at or below your average daily use (%.3lf GB/day).\n", Max_Use);
-       
+        double ExtraUse = (totalGB - total_used) / Remaning_Days;
+        printf("You can use up to %.3lf GB/day and stay below your data plan limit\n", ExtraUse);
     }
     
     return 0;
